@@ -1,0 +1,57 @@
+# Binaries and build output
+bin/
+build/
+dist/
+tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace and coverage
+go.work
+go.work.sum
+coverage.out
+coverage.html
+
+# Runtime logs
+*.log
+logs/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Local config overrides
+configs/*.local.yaml
+configs/*.local.yml
+configs/*.secret.yaml
+configs/*.secret.yml
+
+# Docker and database local data
+.docker/
+mysql_data/
+data/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# 自定义
+opcode-summary/

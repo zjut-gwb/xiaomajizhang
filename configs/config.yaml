@@ -1,0 +1,20 @@
+app:
+  env: dev
+  host: 0.0.0.0
+  port: 8080
+
+database:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: root
+  name: xiaomajizhang
+  charset: utf8mb4
+
+jwt:
+  secret: 08b8443bc9a48f7eec4549a34d868f6c492c2b237c6190d5b0502fd0aae6921a 
+  access_token_expiration: 2h
+  refresh_token_expiration: 168h
+
+log:
+  level: debug
