@@ -18,3 +18,4 @@ a an
 jedis
 家外家
 douyin hate
+sync bilibili sync watch alist
