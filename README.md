@@ -19,3 +19,4 @@ jedis
 家外家
 douyin hate
 sync bilibili sync watch alist
+mybatis
