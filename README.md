@@ -21,3 +21,4 @@ douyin hate
 sync bilibili sync watch alist
 mybatis
 杀戮尖塔
+电影
